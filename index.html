@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tech goals</title>
+</head>
+<body>
+    <header>
+        <h1 data-testid="website-title">My Tech Goals</h1>
+    </header>
+    <main>
+
+        <section class="Slack">
+            <img src="img/profile-pic1.png" 
+            alt="picture"
+            data-testid="slackProfilePicture">
+            <h2>Slack Data</h2>
+            <div>
+                <p><strong>Slack Display Name:</strong><span data-testid="slackDisplayName">Timilehin Elijah</span></p>
+                <p><strong>Slack Email:</strong><span data-testid="slackEmail">olutimi131@gmail.com</span></p>
+            </div>
+        </section>
+
+        <section class="current-time">
+            <h2>Current Time and Day</h2>
+            <p><strong>Current Time (UTC):</strong><span data-testid="currentTimeUTC">Loading...</span></p>
+
+            <p><strong>Current Day of the Week:</strong><span data-testid="currentDay">Loading...</span></p>
+        </section>
+
+        <section class="about-me">
+            <h2 data-testid="tile-about">About Me</h2>
+            <p data-testid="description">
+                 I am a dedicated frontend web developer, who loves to 
+    learning new thing regarding to enhancement of code with latest technology.
+           Contributing to any open source for development is also I look up to with the aim of creating and solving problems.
+            </p>
+        </section>
+
+        <section class="section-goal">
+          <h2 data-testid="section-title">
+           My Goals for the Next Two Years
+          </h2>
+          <ul data-testid="goals-list">
+            <li>Improvement on my existing codes</li>
+            <li>Build enough networking around me</li>
+            <li>Enhance my portfolio with projects</li>
+            <li>Meet up with any tech conferences in Nigeria</li>
+            <li>To get idea of advanced JavaScript framework</li>
+          </ul>
+        </section>
+
+        <section class="section-links">
+            <h2>Kindly visit links below for more;</h2>
+            <ul>
+                <li><a href="https://hng.tech/learn" data-testid="linkhng">HNG Tech Learn</a></li>
+                <li><a href="https://keyword.dog" data-testid="keywordLink">keyword.dog</a></li>
+                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p data-testid="footer-text">&copy;2024 Reserved Copyright</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
